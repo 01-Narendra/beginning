@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <a href="#down"> Go to Down </a>
+
+    <form action="" method="post">
+        <div>
+            <label for="Username">Username : </label>
+            <br>
+            <input type="text" id="Username" required placeholder="Name" value="Narendra Maurya" disabled>
+        </div>
+       <br>
+        <div>
+            <label for="password">Password :</label>
+            <br>
+            <input type="password" id="password" required placeholder="Key" name="password">
+        </div>
+        <br>
+        <div>
+            Gender :<br>
+            <input type="radio" name="gender" value="male" checked > Male <br>
+            <input type="radio" name="gender" value="female"> Female <br>
+            <input type="radio" name="gender" value="other"> Other <br>
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email :</label>
+            <br>
+            <input type="email" id="Email" required placeholder="abc@example.com">
+        </div>
+        <br>
+        <div>
+            <label for="Number">Number :</label>
+            <br>
+            <input type="number" id="Number" required placeholder="number">
+        </div>
+        <br>
+        <div>
+            <label for="Time">Time :</label>
+            <br>
+            <input type="time" id="Time" required placeholder="hrs : min : am/pm">
+        </div>
+        <br>
+        <div>
+            Day :<br>
+            <select name="Day selected">
+                <option>Monday</option>
+                <option>Tuesday</option>
+                <option>Wednesday</option>
+                <option>Thursday</option>
+                <option>Friday</option>
+                <option>Saturday</option>
+                <option>Sunday</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            Courses :<br>
+            <input type="checkbox" name="course" value="C++"> C++ <br>
+            <input type="checkbox" name="course" value="Python"> Python <br>
+            <input type="checkbox" name="course" value="Web Devlopment"> Web Devlopment <br>
+        </div>
+        <br>
+        <div>
+            <label for="Range">Range :</label>
+            <br>
+            <input type="range" id="Range" required>
+        </div>
+        <br>
+        <div>
+            Feedback : <br>
+            <textarea name="Feedback" rows="20" cols="30">Share your Experience</textarea>
+        </div>
+        <button type="button">click me</button>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+
+    <section id="down">
+        <a href="#">Back to Top</a>
+    </section>
+</body>
+</html>
+
+
+
+ <!-- Learning Method 
+ 1.write input tag without required
+ 2.write input tag with required using placeholder
+ 3.write input tag with required using value...... it means it alredy filled
+ 4.use name in input tag so that if data is saved/forwarded then it has name of every field like username: aman etc.
+ 5.you can also use disabled in input tag so that its value can not be change
+ 6.if you wite checked in input type radio then it already clicked...
+  -->

@@ -1,0 +1,29 @@
+p {
+    color:blueviolet;
+    font-size: 20px ;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+h2 {
+    color:brown;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+.cursive {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#mad-site:hover{
+    color:orangered;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+li h3{
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(34, 4, 2)
+}
