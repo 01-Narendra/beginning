@@ -27,3 +27,6 @@ li h3{
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(34, 4, 2)
 }
+a {
+    text-decoration: none;  
+}
